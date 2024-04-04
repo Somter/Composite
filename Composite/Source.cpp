@@ -125,7 +125,7 @@ int main()
 	Component* SecretaryDesk = new Composite("Secretary desk");	
 	Component* Computer = new Composite("Computer");
 
-	Computer->Add(new Leaf("Having a large hard drive is important", 80));	
+	Computer->Add(new Leaf("Having a large hard drive is important", 80));		
 	SecretaryDesk->Add(Computer);
 	SecretaryDesk->Add(new Leaf("Office tools", 127));		
 	root->Add(SecretaryDesk);	
